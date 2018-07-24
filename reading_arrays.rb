@@ -39,5 +39,8 @@ end
 def first_second_and_third_students
   # Write a solution that returns the first, second and third students
   
+  array1 = []
+  array1 << STUDENT_NAMES[0]
+  
   return STUDENT_NAMES[0,1,2]
 end
